@@ -2,7 +2,7 @@
 require_once "../../data/connection.php";
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
-    $stmt = $pdo->prepare("CALL sp_transacao(?,?,?,?)");
+    $stmt = $pdo->prepare("CALL sp_transferir(?,?,?,?)");
     $stmt->execute([$_POST["tipo"], $_POST["valor"], $_POST["descricao"], $_POST["conta"]]);
     $msg = "Transação realizada!";
 }

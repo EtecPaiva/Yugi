@@ -1,0 +1,65 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #ecf0f1;
+    padding: 40px;
+}
+
+.transacao-box {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    max-width: 500px;
+    margin: auto;
+}
+
+h2 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    padding: 12px;
+    margin-top: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-deposito {
+    background: #27ae60;
+    color: white;
+}
+
+.btn-deposito:hover {
+    background: #2ecc71;
+}
+
+.btn-saque {
+    background: #e74c3c;
+    color: white;
+}
+
+.btn-saque:hover {
+    background: #c0392b;
+}
+
+.btn-transferencia {
+    background: #2980b9;
+    color: white;
+}
+
+.btn-transferencia:hover {
+    background: #3498db;
+}
