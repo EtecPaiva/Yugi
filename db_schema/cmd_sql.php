@@ -1,12 +1,11 @@
 <?php
 require_once __DIR__ .'/../data/db_config.php';
 
-$deleteDB = 'DROP DATABASE IF EXISTS '.banco.';';
-$criarDB = 'CREATE DATABASE IF NOT EXISTS '.banco.';';
-$usarDB = 'USE '.banco.';';
+$deleteDB = 'DROP DATABASE IF EXISTS '.DB_Prova.';';
+$criarDB = 'CREATE DATABASE IF NOT EXISTS '.DB_Prova.';';
+$usarDB = 'USE '.DB_Prova.';';
 
 
-USE banco;
 
 $crearTabela = "
 CREATE TABLE cliente (

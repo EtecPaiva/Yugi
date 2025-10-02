@@ -2,7 +2,7 @@
 require_once 'db_config.php';
 try {
     $conn = new PDO(
-    dsn: "mysql:host=" . DB_HOST . ";dbname=" . banco, 
+    dsn: "mysql:host=" . DB_HOST . ";dbname=" . DB_Prova, 
         username: DB_USER, 
         password: DB_PASS
     );
